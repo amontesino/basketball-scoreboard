@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Cursed Font";
+    src: url(CursedTimerUlil-Aznm.ttf) format("truetype");
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin-bottom: 20px;
+//  ^^^ I *wanted* to add this to bring the headers closer to the Figma design but it ended up displacing the other elements. Why?
+}
+
+.score {
+    display: flex;
+    font-family: "Cursed Font";
+    font-size: 90px;
+    width: 155px;
+    height: 120px;
+    color: #F94F6D;
+    background: black;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+// is there a way to perfeectly center the text in the middle to better match the Figma design?
+}
+
+button {
+    height: 45px;
+    width: 45px;
+    font-family: "Cursed Font";
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
